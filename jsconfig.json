@@ -1,0 +1,10 @@
+{
+  "include": ["./src/**/*", "json", "public/socket.io.js"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["element-plus/global"]
+  }
+}
