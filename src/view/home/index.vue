@@ -118,16 +118,6 @@ const data = reactive({
       name: "Tom",
       address: "No. 189, Grove St, Los Angeles",
     },
-    {
-      date: "2016-05-04",
-      name: "Tom",
-      address: "No. 189, Grove St, Los Angeles",
-    },
-    {
-      date: "2022-05-30",
-      name: "Tom",
-      address: "No. 189, Grove St, Los Angeles",
-    },
   ],
   tableHeader: [
     {
@@ -161,10 +151,10 @@ const data = reactive({
 });
 
 function btn1(row) {
-  console.log("编辑", row);
+  console.log("编辑1", row);
 }
 function btn2(row) {
-  console.log("删除", row);
+  console.log("删除2", row);
 }
 </script>
 
